@@ -1,6 +1,6 @@
 ---
 permalink: /
-# title: "Zhongxi Qiu"
+title: ""
 excerpt: "About me"
 author_profile: true
 layout: archive
@@ -29,4 +29,7 @@ Publications
  
 Academic Services
 ======
-* Currently signed in to 43 different slack teams
+* Reviewer of CVPR 2023
+* Reviewer of ECCV 2022
+* Contributer of [MegCC](https://github.com/MegEngine/MegCC)
+* Contributer of [MegEngine](https://github.com/MegEngine/MegEngine)

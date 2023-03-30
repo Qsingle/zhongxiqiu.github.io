@@ -197,7 +197,7 @@ for pubsource in publist:
             for author in bibdata.entries[bib_id].persons["author"]:
                 aurhorname = author.first_names[0]+" "+author.last_names[0]
                 if aurhorname == author_h:
-                    aurhorname = "***" + aurhorname + "***"
+                    aurhorname = "<b>" + aurhorname + "</b>"
                 citation = citation+" "+aurhorname+", "
 
             #citation title

@@ -187,10 +187,13 @@ for pubsource in publist:
 
             #Build Citation from text
             citation = ""
-
+            author_h = "Zhongxi Qiu"
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+                aurhorname = author.first_names[0]+" "+author.last_names[0]
+                if aurhorname == author_h:
+                    aurhorname = "***" + aurhorname + "***"
+                citation = citation+" "+aurhorname+", "
 
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""

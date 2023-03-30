@@ -16,7 +16,7 @@ Education
 
 Work experience
 ======
-* 2020-: Research Assistant
+* Jun. 2020 -: Research Assistant
   * Southern University of Science and Technology
   * Duties included: Assitant with the teching and study
   * Supervisor: Professor Jiang Liu

@@ -210,14 +210,14 @@ defaults:
   #     share: true
   #     comments: true
   # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # - scope:
+  #     path: ""
+  #     type: publications
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _portfolio
   # - scope:
   #     path: ""
@@ -259,7 +259,7 @@ plugins:
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  - jekyll-sitemap
+  # - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji

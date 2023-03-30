@@ -3,9 +3,9 @@ permalink: /
 title: "Zhongxi Qiu"
 excerpt: "About me"
 author_profile: true
+layout: archive
 redirect_from: 
-  - /cv/
-  - /resume
+  - /about
 ---
 
 Education

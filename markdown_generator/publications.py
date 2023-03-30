@@ -143,6 +143,7 @@ def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
 
+papers = []
 
 for pubsource in publist:
     parser = bibtex.Parser()
@@ -172,8 +173,12 @@ for pubsource in publist:
                     pub_month = str(b["month"])
             if "day" in b.keys(): 
                 pub_day = str(b["day"])
-
-                
+            
+            if "number" in b.keys():
+                number = b["number"]
+            else:
+                number = len(papers) + 1
+            papers.append(number)
             pub_date = pub_year+"-"+pub_month+"-"+pub_day
             
             #strip out {} as needed (some bibtex entries that maintain formatting)
@@ -182,7 +187,7 @@ for pubsource in publist:
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
 
-            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
+            md_filename = (str(number)+"-"+str(pub_date) + "-" + url_slug + ".md").replace("--","-")
             html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
 
             #Build Citation from text

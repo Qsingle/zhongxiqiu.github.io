@@ -188,7 +188,7 @@ for pubsource in publist:
             url_slug = url_slug.replace("--","-")
 
             md_filename = (str(number)+"-"+str(pub_date) + "-" + url_slug + ".md").replace("--","-")
-            html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
+            html_filename = (str(number)+"-"+str(pub_date) + "-" + url_slug).replace("--","-")
 
             #Build Citation from text
             citation = ""

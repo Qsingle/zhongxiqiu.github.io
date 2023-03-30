@@ -6,7 +6,6 @@ author_profile: true
 layout: archive
 redirect_from: 
   - /about
-  - /
 ---
 
 Education

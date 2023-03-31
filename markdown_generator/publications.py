@@ -113,6 +113,7 @@ import string
 import html
 import os
 import re
+import yaml
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
@@ -144,7 +145,10 @@ def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
 papers = []
-
+with open("../_config.yml") as f:
+    config = yaml.load(f, yaml.SafeLoader)
+    author_h = config["author"]["name"]
+    print(author_h)
 for pubsource in publist:
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
@@ -192,7 +196,7 @@ for pubsource in publist:
 
             #Build Citation from text
             citation = ""
-            author_h = "Zhongxi Qiu"
+            
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
                 aurhorname = author.first_names[0]+" "+author.last_names[0]

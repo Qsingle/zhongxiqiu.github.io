@@ -32,7 +32,7 @@ Projects
 
 Academic Services
 ======
-* Reviewer of CVPR 2023
-* Reviewer of ECCV 2022
+* Reviewer of CVPR
+* Reviewer of ECCV
 * Contributer of [MegCC](https://github.com/MegEngine/MegCC)
 * Contributer of [MegEngine](https://github.com/MegEngine/MegEngine)

@@ -32,7 +32,6 @@ Projects
 
 Academic Services
 ======
-* Reviewer of CVPR
-* Reviewer of ECCV
+* Reviewer of TMI, CVPR, ECCV, AAAI, PRCV
 * Contributer of [MegCC](https://github.com/MegEngine/MegCC)
 * Contributer of [MegEngine](https://github.com/MegEngine/MegEngine)

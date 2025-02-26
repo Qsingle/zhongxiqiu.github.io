@@ -1,7 +1,7 @@
 ---
 title: "FGAM: a pluggable light-weight attention module for medical image segmentation"
 collection: publications
-permalink: /publication/16-2022-01-01-FGAM-a-pluggable-light-weight-attention-module-for-medical-image-segmentation
+permalink: /publication/5-2022-01-01-FGAM-a-pluggable-light-weight-attention-module-for-medical-image-segmentation
 date: 2022-01-01
 venue: 'Computers in Biology and Medicine'
 citation: ' <b>Zhongxi Qiu</b>,  Yan Hu,  Jiayi Zhang,  Xiaoshan Chen,  Jiang Liu, &quot;FGAM: a pluggable light-weight attention module for medical image segmentation.&quot; Computers in Biology and Medicine, 2022.'
